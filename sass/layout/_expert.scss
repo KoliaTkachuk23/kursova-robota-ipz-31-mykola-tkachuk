@@ -1,0 +1,41 @@
+.expert {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 85px;
+    padding: 30px 0px 100px 0px;
+
+    &_info {
+        margin-top: 200px;
+        &-title {
+            font-size: 40px;
+            font-weight: 600;
+            width: 430px;
+        }
+
+        &-subtitle {
+            width: 470px;
+            margin-top: 40px;
+            font-size: 20px;
+        }
+    }
+
+    &_img {
+        position: relative;
+    }
+}
+
+.expert-bg {
+    bottom: -50px;
+    z-index: -2;
+    position: absolute;
+}
+
+.salat {
+    top: -180px;
+    left: 0;
+    position: absolute;
+    z-index: -2;
+}

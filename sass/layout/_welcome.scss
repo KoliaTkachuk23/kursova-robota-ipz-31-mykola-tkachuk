@@ -1,0 +1,89 @@
+.welcome {
+    border: 1px solid black;
+    position: relative;
+    background: hsla(66, 77%, 62%, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // gap: 40px;
+    text-align: center;
+    padding: 0px 145px;
+
+    &_img {
+        width: 730px;
+        & img {
+        }
+    }
+
+    &_info {
+        margin-top: 130px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-title {
+            font-weight: 600;
+            font-size: 45px;
+        }
+
+        &-subtitle {
+            margin-top: 32px;
+            color: #fff;
+            -webkit-text-stroke: 0.7px black;
+            margin-bottom: 42px;
+            font-size: 20px;
+        }
+
+        &-btn {
+            background: #dae952;
+            border-radius: 50px;
+            padding: 15px 55px;
+            font-size: 24px;
+            font-weight: 600;
+            border: 2px solid transparent;
+            transition: all 0.4s;
+            margin-bottom: 40px;
+            &:hover {
+                transition: all 0.4s;
+                background-color: #fff;
+                border: 2px solid black;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.leaves2 {
+    position: absolute;
+    top: -320px;
+    right: 0;
+    z-index: -2;
+}
+
+.line6 {
+    top: 0;
+    left: 45%;
+    position: absolute;
+    z-index: -2;
+}
+
+.line7 {
+    right: 70px;
+    top: 30%;
+    position: absolute;
+    z-index: -2;
+}
+
+.garlic {
+    position: absolute;
+    bottom: -26px;
+    right: 170px;
+    z-index: -2;
+}
+
+.o {
+    position: absolute;
+    bottom: 90px;
+    left: 230px;
+    z-index: -2;
+}

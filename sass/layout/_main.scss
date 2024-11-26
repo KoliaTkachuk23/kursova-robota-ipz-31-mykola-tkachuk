@@ -1,0 +1,112 @@
+.main {
+    position: relative;
+    &_wrapper {
+        padding: 0px 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &_info {
+        &-title {
+            font-size: 78px;
+            font-weight: 400;
+            width: 465px;
+            line-height: 120%;
+        }
+
+        &-subtitle {
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 5px;
+        }
+
+        &-btn {
+            font-size: 24px;
+            font-weight: 500;
+            padding: 15px 38px;
+            margin-top: 65px;
+            background: #dae952;
+            border-radius: 50px;
+            border: 2px solid transparent;
+            transition: all 0.4s;
+            &:hover {
+                transition: all 0.4s;
+                background-color: #fff;
+                border: 2px solid black;
+                text-decoration: none;
+            }
+        }
+    }
+
+    &_img {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    &_socials {
+        position: absolute;
+        right: 0;
+        &-list {
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            padding: 20px 10px;
+            background: #fff;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+
+            &-item {
+                opacity: 0.25;
+                transition: opacity 0.4s;
+                &:hover {
+                    opacity: 1;
+                    transition: opacity 0.4s;
+                }
+            }
+        }
+    }
+}
+
+.rectangle {
+    z-index: -1;
+    right: 0px;
+    position: absolute;
+}
+
+.ellipse {
+    z-index: -1;
+    right: 40px;
+    position: absolute;
+}
+
+.line1 {
+    top: 20%;
+    left: 18%;
+    z-index: -1;
+    position: absolute;
+}
+.line2 {
+    top: 33%;
+    left: 43%;
+    z-index: -1;
+    position: absolute;
+}
+.line3 {
+    top: 12%;
+    right: 20%;
+    z-index: 0;
+    position: absolute;
+}
+.line4 {
+    bottom: 27%;
+    left: 33%;
+    z-index: -1;
+    position: absolute;
+}
+.line5 {
+    bottom: 10%;
+    left: 12%;
+    z-index: -1;
+    position: absolute;
+}

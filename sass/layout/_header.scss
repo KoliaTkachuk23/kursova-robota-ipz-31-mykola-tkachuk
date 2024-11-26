@@ -1,0 +1,97 @@
+.header {
+    padding: 20px 120px;
+
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_logo {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+        &-text {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        &:hover {
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+
+    &_nav {
+        display: flex;
+        gap: 27px;
+        &-item {
+            & a {
+                color: black;
+                font-size: 12px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    &_contact {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        &-btn {
+            background-color: #dae952;
+            padding: 10px 25px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            border: 2px solid transparent;
+            transition: all 0.4s;
+            &:hover {
+                transition: all 0.4s;
+                background-color: #fff;
+                border: 2px solid black;
+            }
+        }
+
+        &-tel {
+            display: flex;
+            border-radius: 10px;
+            padding: 10px 10px;
+            gap: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #000;
+            border: 2px solid transparent;
+            transition: all 0.4s;
+            &:hover {
+                transition: all 0.4s;
+                background-color: #fff;
+                border: 2px solid black;
+                text-decoration: none;
+            }
+        }
+    }
+
+    &_icons {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        & a {
+            border: 2px solid black;
+            padding: 7px;
+            border-radius: 100%;
+            transition: all 0.4s;
+            &:hover {
+                transition: all 0.4s;
+                background-color: #fff;
+            }
+        }
+    }
+}
+
+.burger {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: none;
+}

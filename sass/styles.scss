@@ -1,0 +1,17 @@
+@import "./layout/reset";
+
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/menu";
+@import "./layout/welcome";
+@import "./layout/expert";
+@import "./layout/customers";
+@import "./layout/subscribe";
+@import "./layout/footer";
+
+@import "./layout/media";
+
+span {
+    color: #dae952;
+    font-weight: bold;
+}
