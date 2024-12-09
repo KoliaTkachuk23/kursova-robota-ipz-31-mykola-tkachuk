@@ -516,7 +516,7 @@ img {
   padding: 100px;
   width: 100%;
   min-height: 430px;
-  background-image: url("../../assets/images/subscribe-bg.png");
+  background-image: url("./assets/images/subscribe-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
