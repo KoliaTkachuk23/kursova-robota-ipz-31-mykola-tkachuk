@@ -44,3 +44,21 @@ menuItems.forEach((item) => {
         if (img) img.style.transform = "scale(1)"; // Повертаємо розмір зображення
     });
 });
+
+const Items = document.querySelectorAll(".customers_list-item");
+Items.forEach((item) => {
+    item.addEventListener("mouseenter", () => {
+        item.style.transform = "translateY(-10px) scale(1.10)"; // Піднімаємо та збільшуємо
+        item.style.backgroundColor = "#f9f9f9"; // Додаємо світлий фон
+        item.style.transition = "all 0.3s ease"; // Плавність анімації
+        const img = item.querySelector("img");
+        if (img) img.style.transform = "scale(1.1)"; // Збільшуємо зображення
+    });
+
+    item.addEventListener("mouseleave", () => {
+        item.style.transform = "translateY(0) scale(1)"; // Повертаємо початковий вигляд
+        item.style.backgroundColor = ""; // Повертаємо фон
+        const img = item.querySelector("img");
+        if (img) img.style.transform = "scale(1)"; // Повертаємо розмір зображення
+    });
+});
